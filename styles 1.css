@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-position: static;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration:none
+}
+
+nav .search-box {
+    margin-left: 20px;
+}
+
+nav .search-box input {
+    padding: 5px;
+}
+
+nav .search-box button {
+    padding: 5px;
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 20px;
+    
+    
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.A{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    
+    }
+    .A:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(html.jpg);
+    background-size: cover;
+    }
+
+.B{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .B:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(CSS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.C{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .C:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(javascript.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.D{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .D:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(phython.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.E{height: 200px;
+    width: 200px;
+    background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+     margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+        
+     }
+     .E:hover{
+     transition: height 3s,width 2s, border 4s;
+     background-image: url(java.jpeg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     }
+ .F{
+     height: 200px;
+     width: 200px;
+     background-color: rgb(253, 253, 253);
+      border: 3px solid black;
+     border-radius: 4px;
+     margin: 5px;
+     padding: 5px;
+     box-shadow: 3px 3px 20px  black;
+    }
+
+      .F:hover{
+      transition: height 3s,width 2s, border 4s;
+      background-image: url(c++.jpg);
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      }
+ .G{
+    height: 200px;
+     width: 200px;
+     background-color: rgb(253, 253, 253);
+     border: 3px solid black;
+     border-radius: 4px;
+     margin: 5px;
+     padding: 5px;
+     box-shadow: 3px 3px 20px  black;
+     
+     }
+     .G:hover{
+     transition: height 3s,width 2s, border 4s;
+     background-image: url(php.jpg);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     }
+.H{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .H:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(SQL.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.I{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .I:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(RUBY.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.J{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .J:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.K{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .K:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(SWIFT.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.L{
+    height: 200px;
+    width: 200px;
+     background-color: rgb(253, 253, 253);
+    border: 3px solid black;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 20px  black;
+    
+    }
+    .L:hover{
+    transition: height 3s,width 2s, border 4s;
+    background-image: url(REACT.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    p{
+        text-align: center;
+        margin-top: 10px;
+    }
+    div{
+        display: flex;
+        justify-content:space-around;
+        grid-row: 50px 50px 50px 50px;
+    }
